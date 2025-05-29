@@ -8,5 +8,4 @@ echo "<pre>";
 print_r($user_list);
 echo "</pre>";
 
-
 ?>
