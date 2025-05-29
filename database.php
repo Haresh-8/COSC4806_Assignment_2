@@ -11,8 +11,7 @@ DB_PORT . ';dbname=' . DB_DATABASE, DB_USERNAME, DB_PASSWORD);
     } catch (PDOException $e){
       echo 23;
         die("Database connection failed: " . $e->getMessage());
-   //We should set a global variable here so we know the DB is down
-
+   //We should set a global variable here so we know the D
             }
         }
 
