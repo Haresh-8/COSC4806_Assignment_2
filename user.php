@@ -9,7 +9,7 @@ class User {
         $statement = $db->prepare("SELECT * FROM users;");
         $statement->execute();
         $rows = $statement->fetchAll(PDO::FETCH_ASSOC); 
-        #return $rows;
+
     }
 
     public function username_exists($username) {
@@ -26,6 +26,7 @@ class User {
         $statement = $db->prepare("INSERT INTO users (username, password) VALUES (:username, :password);");
         return $statement->execute([':username' => $username, ':password' => $hashed]);
     }
+    
     
     public function validate_login($username, $password) {
         $db = db_connect();
