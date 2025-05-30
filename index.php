@@ -15,7 +15,7 @@ $user_list = $user->get_all_users();
 
 echo "<pre>Welcome,{$_SESSION['username']}\n";
 echo "</pre>";
-echo "Today's date: ".date("l, F j, Y");
+echo "Today's date is: ".date("l, F j, Y");
 echo "</pre>";
 print_r($user_list);
 echo "</pre>";
