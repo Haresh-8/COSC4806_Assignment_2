@@ -2,8 +2,6 @@
 session_start();
 require_once('user.php');
 
-
-
  
 if (!isset($_SESSION['authenticated'])) {
     echo"<pre> Hey, Connect to us just by clicking...";
