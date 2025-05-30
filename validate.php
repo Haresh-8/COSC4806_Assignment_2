@@ -16,4 +16,3 @@ if ($user->validate_login($username, $password)) {
     echo "This is unsuccessful login attempt number: {$_SESSION['failed_attempts']}<br>";
     echo "<a href='login.php'>Try Again</a>";
 }
-?>

@@ -35,5 +35,5 @@ class User {
         $user = $statement->fetch(PDO::FETCH_ASSOC);
         return $user && password_verify($password, $user['password']);
     }
-    
+}
 ?>
