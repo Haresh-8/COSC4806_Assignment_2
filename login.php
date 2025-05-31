@@ -13,7 +13,6 @@
         <input type="submit" value="Login">
     </form>
 
-    <!-- Back to Home Button -->
     <br>
     <a href="index.php">
         <button type="button">Back to Home</button>

@@ -62,10 +62,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <input type="submit" value="Register">
 </form>
 
-<!-- Back to index page button -->
-<div class="back-button">
-    <a href="index.php"><button type="button">Back to Home</button></a>
-</div>
+    <div class="back-button">
+        <a href="index.php"><button type="button">Back to Home</button></a>
+    </div>
 
 </body>
 </html>
