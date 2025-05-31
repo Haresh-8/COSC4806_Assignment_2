@@ -6,7 +6,10 @@ require_once('user.php');
 if (!isset($_SESSION['authenticated'])) {
     echo"<pre> Hey, Are you looking for something... Just click on..";
     echo"</pre>";
-    echo "<a href='login.php'>Login</a> or <a href='register.php'>Register</a>";
+    echo "<pre> 
+    Existing User..<a href='login.php'>Login</a>
+    </prev>
+    New User <a href='register.php'>Register</a>";
     exit();
 }
 
